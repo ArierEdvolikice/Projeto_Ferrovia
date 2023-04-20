@@ -29,36 +29,39 @@
             <div id="myModal" class="modal">
                 <div class="modal-content">
                     <span class="close">x</span>
-                    <div class="mc-3" style="padding: 10% 20% 10% 20%;">
-                        <h1>Fortaleza.</h1>
+                    <div class="mc-3" style="padding: 8% 20% 10% 20%;">
+                      <div>
+                        <h1>Fortaleza</h1>
+                        <br>
                         <h2>Selecione uma estação para conhecer</h2>
+                      </div>
                         <div class="grid-container">
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()"></a>
-                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">João Felipe</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 30px; height: 20px;" src="img/map-marker-alt.svg">João Felipe</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn3').click()">
-                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Álvaro Weyne</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 30px; height: 20px;" src="img/map-marker-alt.svg">Álvaro Weyne</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn4').click()">
-                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Antônio Bezerra</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 30px; height: 20px;" src="img/map-marker-alt.svg">Antônio Bezerra</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Ramal da Alfândega</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 30px; height: 20px;" src="img/map-marker-alt.svg">Ramal da Alfândega</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Ramal Mucuripe</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 30px; height: 20px;" src="img/map-marker-alt.svg">Ramal Mucuripe</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Otávio Bonfim</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 30px; height: 20px;" src="img/map-marker-alt.svg">Otávio Bonfim</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Parangaba</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 30px; height: 20px;" src="img/map-marker-alt.svg">Parangaba</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Mondubim</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 30px; height: 20px;" src="img/map-marker-alt.svg">Mondubim</div>
                             </button>
                         </div>
-                        <div style="  display: flex; justify-content: center;">
+                        <div class="botao_voltar" style="  display: flex; justify-content: center;">
                             <button onclick="myFunction();document.getElementById('close').click()">VOLTAR</button>
                         </div>
                     </div>
@@ -76,13 +79,15 @@
                      <span id="close" class="close">×</span>
                         <div class='parent-2'>
                             <div class='child-2'>
+                              <div class="texto-min-map">
                                 <h2>Estação</h2>
                                 <h1>João Felipe</h1>
+                              </div>                                
                                 <h3>Fortaleza | 1926</h3>
                                 <img alt="" class="imagem_mapa_min" src="img/Mapa/Mapa_Corte_Fortaleza.jpg">
-                                <div>
+                                <div class="botao-gal-v-e-tela-inicial">
                                     <button onclick="document.getElementById('close').click()">Voltar</button>
-                                    <button onclick="myFunction();document.getElementById('close').click()">Tela inicial</button>
+                                    <button class="botao-especial" onclick="myFunction();document.getElementById('close').click()">Tela inicial</button>
                                 </div>
                             </div>
                             <div class="swiper-container-cont-manual">
@@ -202,13 +207,15 @@
                      <span id="close1" class="close">×</span>
                         <div class='parent-2'>
                             <div class='child-2'>
+                              <div class="texto-min-map">
                                 <h2>Estação</h2>
                                 <h1>Álvaro Weyne</h1>
+                              </div>
                                 <h3>Fortaleza | 1926</h3>
                                 <img class="imagem_mapa_min" src="img/Mapa/Mapa_Corte_Fortaleza.jpg">
-                                <div>
+                                <div class="botao-gal-v-e-tela-inicial">
                                     <button onclick="document.getElementById('close1').click()">Voltar</button>
-                                    <button onclick="myFunction();document.getElementById('close1').click()">Tela inicial</button>
+                                    <button class="botao-especial" onclick="myFunction();document.getElementById('close1').click()">Tela inicial</button>
                                 </div>
                             </div>
                             <div class="swiper-container-cont-manual">
@@ -288,13 +295,15 @@
                      <span id="close2" class="close">×</span>
                         <div class='parent-2'>
                             <div class='child-2'>
+                              <div class="texto-min-map">
                                 <h2>Estação</h2>
                                 <h1>Antônio Bezerra</h1>
+                              </div>
                                 <h3>Fortaleza | 1926</h3>
                                 <img class="imagem_mapa_min" src="img/Mapa/Mapa_Corte_Fortaleza.jpg">
-                                <div>
+                                <div class="botao-gal-v-e-tela-inicial" >
                                     <button onclick="document.getElementById('close2').click()">Voltar</button>
-                                    <button onclick="myFunction();document.getElementById('close2').click()">Tela inicial</button>
+                                    <button class="botao-especial" onclick="myFunction();document.getElementById('close2').click()">Tela inicial</button>
                                 </div>
                             </div>
                             <div class="swiper-container-cont-manual">
