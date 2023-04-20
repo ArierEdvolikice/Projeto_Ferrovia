@@ -8,12 +8,20 @@
         <title>Projeto Ferrovia</title>
     </head>
     <body>
+
+<a href="#" class="float">
+  <button onclick="openFullscreen();">Open Fullscreen</button>
+  <button onclick="closeFullscreen();">Close Fullscreen</button>
+</a>
+
+
         <div id="parent" class="parent">
             <button class="dot" onclick="document.getElementById('myBtn').click()"></button>
             <div class='pulse'></div>
             <img alt="" />
         </div>
         <div class="esp-modal">
+            
             <h2>Modal Example1</h2>
             <!-- Trigger/Open The Modal -->
             <button id="myBtn" class="myBtn">Open Modal1</button>
@@ -25,29 +33,29 @@
                         <h1>Fortaleza.</h1>
                         <h2>Selecione uma estação para conhecer</h2>
                         <div class="grid-container">
-                            <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">João Felipe</div>
+                            <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()"></a>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">João Felipe</div>
+                            </button>
+                            <button class="grid-container-but" onclick="document.getElementById('myBtn3').click()">
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Álvaro Weyne</div>
+                            </button>
+                            <button class="grid-container-but" onclick="document.getElementById('myBtn4').click()">
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Antônio Bezerra</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Álvaro Weyne</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Ramal da Alfândega</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Antônio Bezerra</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Ramal Mucuripe</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Ramal da Alfândega</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Otávio Bonfim</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Ramal Mucuripe</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Parangaba</div>
                             </button>
                             <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Otávio Bonfim</div>
-                            </button>
-                            <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Parangaba</div>
-                            </button>
-                            <button class="grid-container-but" onclick="document.getElementById('myBtn2').click()">
-                                <div class="item1"><img class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Mondubim</div>
+                                <div class="item1"><img alt="" class="img-icon-2" style="width: 15px; height: 15px;" src="img/map-marker-alt.svg">Mondubim</div>
                             </button>
                         </div>
                         <div style="  display: flex; justify-content: center;">
@@ -56,6 +64,7 @@
                     </div>
                 </div>
             </div>
+
             <h2>Modal Example2</h2>
             <!-- Trigger/Open The Modal -->
             <button id="myBtn2" class="myBtn">Open Modal2</button>
@@ -63,34 +72,119 @@
             <div id="myModal2" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
-                    <div class="mc-2" style="padding-top: 5%; padding-left: 5%;">
+                    <div class="mc-2">
                      <span id="close" class="close">×</span>
                         <div class='parent-2'>
                             <div class='child-2'>
                                 <h2>Estação</h2>
-                                <h1>Alvaro</h1>
+                                <h1>João Felipe</h1>
                                 <h3>Fortaleza | 1926</h3>
-                                <img class="imagem_mapa_min" src="img/Fortaleza/Ferrovia_x/ferro-(1).jpg">
+                                <img alt="" class="imagem_mapa_min" src="img/Mapa/Mapa_Corte_Fortaleza.jpg">
                                 <div>
                                     <button onclick="document.getElementById('close').click()">Voltar</button>
                                     <button onclick="myFunction();document.getElementById('close').click()">Tela inicial</button>
                                 </div>
                             </div>
-                            <div class='child-3'>
-                                <div class="carousel-container">
-                                    <img src="img/Fortaleza/Ferrovia_x/ferro-(1).jpg" alt="" class="current-image">
-                                </div>
-                                <div class="">
-                                    <ul class="next-list">
-                                        <span class="arrow arrow-left"> Prev </span>
-                                        <li><img src="img/Fortaleza/Ferrovia_x/ferro-(1).jpg" alt=""
-                                            class="image-of-list current-image-list"></li>
-                                        <li><img src="img/Fortaleza/Ferrovia_x/ferro-(2).jpg" alt="" class="image-of-list"></li>
-                                        <li><img src="img/Fortaleza/Ferrovia_x/ferro-(3).jpg" alt="" class="image-of-list"></li>
-                                        <li><img src="img/Fortaleza/Ferrovia_x/ferro-(4).png" alt="" class="image-of-list"></li>
-                                        <span class="arrow arrow-right"> Next </span>
-                                    </ul>
-                                </div>
+                            <div class="swiper-container-cont-manual">
+
+                                <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+                                thumbs-swiper=".mySwiper3" loop="true" space-between="10" navigation="true">
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (1).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (2).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (3).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (4).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (5).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (6).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (7).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (8).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (9).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (10).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (11).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (12).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (13).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (14).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (15).JPG" />
+                                  </swiper-slide>
+                              </swiper-container>
+                            
+                              <swiper-container class="mySwiper3" loop="true" space-between="10" slides-per-view="4" free-mode="true"
+                                watch-slides-progress="true">
+                                <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (1).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (2).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (3).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (4).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (5).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (6).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (7).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (8).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (9).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (10).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                      <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (11).JPG" />
+                                    </swiper-slide>
+                                    <swiper-slide>
+                                      <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (12).JPG" />
+                                    </swiper-slide>
+                                    <swiper-slide>
+                                      <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (13).JPG" />
+                                    </swiper-slide>
+                                    <swiper-slide>
+                                      <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (14).JPG" />
+                                    </swiper-slide>
+                                    <swiper-slide>
+                                      <img alt="" src="img/Fortaleza/Joao_Felipe/JOÃO_FELIPE (15).JPG" />
+                                    </swiper-slide>
+                              </swiper-container>
+                            
                             </div>
                         </div>
                     </div>
@@ -99,41 +193,82 @@
 
             <h2>Modal Example3</h2>
             <!-- Trigger/Open The Modal -->
-            <button id="myBtn3" class="myBtn">Open Modal3</button>
+            <button id="myBtn3" class="myBtn">Open Modal2</button>
             <!-- The Modal -->
-            <div id="myModal3" class="modal" >
+            <div id="myModal3" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
-                    <div class="mc-2" style="padding-top: 5%; padding-left: 5%;">
+                    <div class="mc-2">
                      <span id="close1" class="close">×</span>
                         <div class='parent-2'>
                             <div class='child-2'>
                                 <h2>Estação</h2>
-                                <h1>Alvaro</h1>
-                                <h3>Fortaleza | 19xx</h3>
-                                <img class="imagem_mapa_min" src="img/Fortaleza/Ferrovia_x/ferro-(1).jpg">
+                                <h1>Álvaro Weyne</h1>
+                                <h3>Fortaleza | 1926</h3>
+                                <img class="imagem_mapa_min" src="img/Mapa/Mapa_Corte_Fortaleza.jpg">
                                 <div>
                                     <button onclick="document.getElementById('close1').click()">Voltar</button>
                                     <button onclick="myFunction();document.getElementById('close1').click()">Tela inicial</button>
                                 </div>
                             </div>
-                            <div class='child-3'>
-                                <div class="carousel-container">
-                                    <img src="img/Fortaleza/Ferrovia_x/ferro-(1).jpg" alt="" class="current-image">
-                                </div>
-                                <div class="">
-                                    <ul  class="next-list">
-                                        
-                                        <span class="arrow arrow-left"> Prev </span>
-                                        <li><img src="img/Fortaleza/Ferrovia_x/ferro-(1).jpg" alt=""
-                                            class="image-of-list current-image-list"></li>
-                                        <li><img src="img/Fortaleza/Ferrovia_x/ferro-(2).jpg" alt="" class="image-of-list"></li>
-                                        <li><img src="img/Fortaleza/Ferrovia_x/ferro-(3).jpg" alt="" class="image-of-list"></li>
-                                        <li><img src="img/Fortaleza/Ferrovia_x/ferro-(4).png" alt="" class="image-of-list"></li>
-                                        <span class="arrow arrow-right"> Next </span>
-                                        
-                                    </ul>
-                                </div>
+                            <div class="swiper-container-cont-manual">
+
+                                <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+                                thumbs-swiper=".mySwiper2" loop="true" space-between="10" navigation="true">
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (1).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (2).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (3).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (4).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (5).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (6).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (7).JPG" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (8).JPG" />
+                                </swiper-slide>
+                              </swiper-container>
+                            
+                              <swiper-container class="mySwiper2" loop="true" space-between="10" slides-per-view="4" free-mode="true"
+                                watch-slides-progress="true">
+                                <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (1).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt=""  src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (2).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt=""  src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (3).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt=""  src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (4).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt=""  src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (5).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt=""  src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (6).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt=""  src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (7).JPG" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt=""  src="img/Fortaleza/Álvaro Weyne/ALVARO WEYNE (8).JPG" />
+                                  </swiper-slide>
+                              </swiper-container>
+                            
                             </div>
                         </div>
                     </div>
@@ -142,13 +277,89 @@
 
 
 
+            <h2>Modal Example4</h2>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn4" class="myBtn">Open Modal2</button>
+            <!-- The Modal -->
+            <div id="myModal4" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="mc-2">
+                     <span id="close2" class="close">×</span>
+                        <div class='parent-2'>
+                            <div class='child-2'>
+                                <h2>Estação</h2>
+                                <h1>Antônio Bezerra</h1>
+                                <h3>Fortaleza | 1926</h3>
+                                <img class="imagem_mapa_min" src="img/Mapa/Mapa_Corte_Fortaleza.jpg">
+                                <div>
+                                    <button onclick="document.getElementById('close2').click()">Voltar</button>
+                                    <button onclick="myFunction();document.getElementById('close2').click()">Tela inicial</button>
+                                </div>
+                            </div>
+                            <div class="swiper-container-cont-manual">
 
-
-
-
-
-
-
+                                <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+                                thumbs-swiper=".mySwiper4" loop="true" space-between="10" navigation="true">
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (1).jpg" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (2).jpg" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (3).jpg" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (4).jpg" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (5).jpg" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (6).jpg" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (7).jpg" />
+                                </swiper-slide>
+                                <swiper-slide>
+                                  <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (8).jpg" />
+                                </swiper-slide>
+                              </swiper-container>
+                            
+                              <swiper-container class="mySwiper4" loop="true" space-between="10" slides-per-view="4" free-mode="true"
+                                watch-slides-progress="true">
+                                <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (1).jpg" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (2).jpg" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (3).jpg" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (4).jpg" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (5).jpg" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (6).jpg" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (7).jpg" />
+                                  </swiper-slide>
+                                  <swiper-slide>
+                                    <img alt="" src="img/Fortaleza/Ant_Bezerra/Ant_Bezerra (8).jpg" />
+                                  </swiper-slide>
+                              </swiper-container>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -165,6 +376,36 @@
 
 
         </div>
+
+
+
+
+
+
+
     </body>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+    <script>
+      var elem = document.documentElement;
+      function openFullscreen() {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { /* Safari */
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE11 */
+          elem.msRequestFullscreen();
+        }
+      }
+      
+      function closeFullscreen() {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) { /* Safari */
+          document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) { /* IE11 */
+          document.msExitFullscreen();
+        }
+      }
+      </script>
 </html>
