@@ -634,6 +634,18 @@ swiper-slide {
   padding: 10px 0;
 }
 
+.mySwiper6 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper7 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
 
 
 .mySwiper2 swiper-slide {
@@ -666,6 +678,12 @@ swiper-slide {
   opacity: 0.4;
 }
 
+.mySwiper7 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
 .mySwiper2 .swiper-slide-thumb-active {
   opacity: 1;
 }
@@ -686,6 +704,10 @@ swiper-slide {
   opacity: 1;
 }
 
+.mySwiper7 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
 swiper-slide img {
   width: 100%;
   height: 100%;
@@ -694,6 +716,6 @@ swiper-slide img {
 }
 
 .swiper-container-cont-manual {
-  width: 60%;
+  width: 50%;
   height: 82vh;
 }
