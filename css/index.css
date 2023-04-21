@@ -221,12 +221,15 @@ html::-webkit-scrollbar {
 }
 
 /* Modal Content */
+
 .modal-content {
-  margin: 0;
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  text-align: center;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .modal-content h1{
@@ -402,14 +405,12 @@ html::-webkit-scrollbar {
 }
 
 .parent-2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 85%;
-  height: 0;
-  align-content: space-around;
-  padding-top: 4%;
-  padding-left: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    gap:25px;
 }
 
 .mc-2{
