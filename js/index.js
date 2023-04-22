@@ -28,6 +28,72 @@
 
 /*--------------------------------------*/
 
+
+function myFunctionCaucaia(){
+    document.getElementById("myModal").style.display = "none";
+    document.getElementById("myModal2").style.display = "none";
+    document.getElementById("myModal3").style.display = "none";
+    document.getElementById("myModal4").style.display = "none";
+    document.getElementById("myModal5").style.display = "none";
+    document.getElementById("myModal6").style.display = "none";
+    document.getElementById("myModal7").style.display = "none";
+    document.getElementById("myModal8").style.display = "none";
+    document.getElementById("myModal9").style.display = "none";
+    document.getElementById("myModal11").style.display = "none";
+    document.getElementById("myModal12").style.display = "none";
+    document.getElementById("myModal13").style.display = "none";
+    document.getElementById("myModal14").style.display = "none";
+    document.getElementById("myModal15").style.display = "none";
+    document.getElementById("myModal16").style.display = "none";
+    document.getElementById("myModal17").style.display = "none";
+    document.getElementById("myModal18").style.display = "none";
+    document.getElementById("myModal19").style.display = "none";
+    document.getElementById("myModal20").style.display = "none";
+}
+
+function myFunctionSaoG(){
+    document.getElementById("myModal").style.display = "none";
+    document.getElementById("myModal2").style.display = "none";
+    document.getElementById("myModal3").style.display = "none";
+    document.getElementById("myModal4").style.display = "none";
+    document.getElementById("myModal5").style.display = "none";
+    document.getElementById("myModal6").style.display = "none";
+    document.getElementById("myModal7").style.display = "none";
+    document.getElementById("myModal8").style.display = "none";
+    document.getElementById("myModal9").style.display = "none";
+    document.getElementById("myModal10").style.display = "none";
+    document.getElementById("myModal11").style.display = "none";
+    document.getElementById("myModal12").style.display = "none";
+    document.getElementById("myModal13").style.display = "none";
+    document.getElementById("myModal14").style.display = "none";
+    document.getElementById("myModal16").style.display = "none";
+    document.getElementById("myModal17").style.display = "none";
+    document.getElementById("myModal18").style.display = "none";
+    document.getElementById("myModal19").style.display = "none";
+    document.getElementById("myModal20").style.display = "none";
+}
+
+function myFunctionFortaleza(){
+    document.getElementById("myModal2").style.display = "none";
+    document.getElementById("myModal3").style.display = "none";
+    document.getElementById("myModal4").style.display = "none";
+    document.getElementById("myModal5").style.display = "none";
+    document.getElementById("myModal6").style.display = "none";
+    document.getElementById("myModal7").style.display = "none";
+    document.getElementById("myModal8").style.display = "none";
+    document.getElementById("myModal9").style.display = "none";
+    document.getElementById("myModal10").style.display = "none";
+    document.getElementById("myModal11").style.display = "none";
+    document.getElementById("myModal12").style.display = "none";
+    document.getElementById("myModal13").style.display = "none";
+    document.getElementById("myModal14").style.display = "none";
+    document.getElementById("myModal15").style.display = "none";
+    document.getElementById("myModal16").style.display = "none";
+    document.getElementById("myModal17").style.display = "none";
+    document.getElementById("myModal18").style.display = "none";
+    document.getElementById("myModal19").style.display = "none";
+    document.getElementById("myModal20").style.display = "none";
+}
 	
 let timer;
 
@@ -49,6 +115,26 @@ function myFunction() {
   document.getElementById("myModal8").style.display = "none";
   document.getElementById("myModal9").style.display = "none";
   document.getElementById("myModal10").style.display = "none";
+  document.getElementById("myModal11").style.display = "none";
+  document.getElementById("myModal12").style.display = "none";
+  document.getElementById("myModal13").style.display = "none";
+  document.getElementById("myModal14").style.display = "none";
+  document.getElementById("myModal15").style.display = "none";
+  document.getElementById("myModal16").style.display = "none";
+  document.getElementById("myModal17").style.display = "none";
+  document.getElementById("myModal18").style.display = "none";
+  document.getElementById("myModal19").style.display = "none";
+  document.getElementById("myModal20").style.display = "none";
+  document.getElementById("myModal21").style.display = "none";
+  document.getElementById("myModal22").style.display = "none";
+  document.getElementById("myModal23").style.display = "none";
+  document.getElementById("myModal24").style.display = "none";
+  document.getElementById("myModal25").style.display = "none";
+  document.getElementById("myModal26").style.display = "none";
+  document.getElementById("myModal27").style.display = "none";
+  document.getElementById("myModal28").style.display = "none";
+  document.getElementById("myModal29").style.display = "none";
+  document.getElementById("myModal30").style.display = "none";
 }
 
 // Adicionar ou remover eventos de escuta relevantes aqui
@@ -82,6 +168,7 @@ btn[0].onclick = function() {
 btn[1].onclick = function() {
     modal[1].style.display = "block";
 }
+
 btn[2].onclick = function() {
     modal[2].style.display = "block";
 }
@@ -110,72 +197,82 @@ btn[8].onclick = function() {
     modal[8].style.display = "block";
 }
 
-
-// When the user clicks on <span> (x), close the modal
-span[0].onclick = function() {
-    modal[0].style.display = "none";
+btn[9].onclick = function() {
+    modal[9].style.display = "block";
 }
 
-span[1].onclick = function() {
-    modal[1].style.display = "none";
-}
-span[2].onclick = function() {
-    modal[2].style.display = "none";
+btn[10].onclick = function() {
+    modal[10].style.display = "block";
 }
 
-span[3].onclick = function() {
-    modal[3].style.display = "none";
+btn[11].onclick = function() {
+    modal[11].style.display = "block";
 }
 
-span[4].onclick = function() {
-    modal[4].style.display = "none";
+btn[12].onclick = function() {
+    modal[12].style.display = "block";
 }
 
-span[5].onclick = function() {
-    modal[5].style.display = "none";
+btn[13].onclick = function() {
+    modal[13].style.display = "block";
 }
 
-span[6].onclick = function() {
-    modal[6].style.display = "none";
+btn[14].onclick = function() {
+    modal[14].style.display = "block";
 }
 
-span[7].onclick = function() {
-    modal[7].style.display = "none";
+btn[15].onclick = function() {
+    modal[15].style.display = "block";
 }
 
-span[8].onclick = function() {
-    modal[8].style.display = "none";
+btn[16].onclick = function() {
+    modal[16].style.display = "block";
+}
+
+btn[17].onclick = function() {
+    modal[17].style.display = "block";
+}
+
+btn[18].onclick = function() {
+    modal[18].style.display = "block";
+}
+
+btn[19].onclick = function() {
+    modal[19].style.display = "block";
+}
+
+btn[20].onclick = function() {
+    modal[20].style.display = "block";
+}
+
+btn[21].onclick = function() {
+    modal[21].style.display = "block";
+}
+
+btn[22].onclick = function() {
+    modal[22].style.display = "block";
+}
+
+btn[23].onclick = function() {
+    modal[23].style.display = "block";
+}
+
+btn[24].onclick = function() {
+    modal[24].style.display = "block";
+}
+
+btn[25].onclick = function() {
+    modal[25].style.display = "block";
+}
+
+btn[26].onclick = function() {
+    modal[26].style.display = "block";
+}
+
+btn[27].onclick = function() {
+    modal[27].style.display = "block";
 }
 
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == myModal) {
-        myModal.style.display = "none";
-    }
-    if (event.target == myModal2) {
-        myModal2.style.display = "none";
-    }
-    if (event.target == myModal3) {
-        myModal3.style.display = "none";
-    }
-    if (event.target == myModal4) {
-        myModal4.style.display = "none";
-    }
-    if (event.target == myModal5) {
-        myModal5.style.display = "none";
-    }
-    if (event.target == myModal6) {
-        myModal6.style.display = "none";
-    }
-    if (event.target == myModal7) {
-        myModal7.style.display = "none";
-    }
-    if (event.target == myModal8) {
-        myModal8.style.display = "none";
-    }
-    if (event.target == myModal9) {
-        myModal9.style.display = "none";
-    }
-}
+
 
