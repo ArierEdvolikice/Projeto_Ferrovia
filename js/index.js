@@ -4,6 +4,7 @@
 
 /*--------------------------------------*/
 
+
 (function(){
     var curYPos, curXPos, curDown;
   
@@ -28,16 +29,39 @@
 /*--------------------------------------*/
 
 	
+let timer;
+
+function resetTimer() {
+  clearTimeout(timer);
+  timer = setTimeout(function() {
+    myFunction();
+  }, 180000);
+}
+
 function myFunction() {
-	document.getElementsByClassName("modal")[0].style.display = 'none';
+  document.getElementById("myModal").style.display = "none";
+  document.getElementById("myModal2").style.display = "none";
+  document.getElementById("myModal3").style.display = "none";
+  document.getElementById("myModal4").style.display = "none";
+  document.getElementById("myModal5").style.display = "none";
+  document.getElementById("myModal6").style.display = "none";
+  document.getElementById("myModal7").style.display = "none";
+  document.getElementById("myModal8").style.display = "none";
+  document.getElementById("myModal9").style.display = "none";
+  document.getElementById("myModal10").style.display = "none";
 }
 
-function myFunction2() {
-document.getElementById("myModal3")[0].style.display = 'none';
-}
+// Adicionar ou remover eventos de escuta relevantes aqui
+document.addEventListener("mousemove", resetTimer);
+document.addEventListener("keypress", resetTimer);
+document.addEventListener("scroll", resetTimer);
 
 
-window.onload = () => window.scrollTo(2000, 300);
+	
+
+
+
+window.onload = () => window.scrollTo(450, 10);
 
 /*--------------------------------------*/
 
@@ -78,6 +102,14 @@ btn[6].onclick = function() {
     modal[6].style.display = "block";
 }
 
+btn[7].onclick = function() {
+    modal[7].style.display = "block";
+}
+
+btn[8].onclick = function() {
+    modal[8].style.display = "block";
+}
+
 
 // When the user clicks on <span> (x), close the modal
 span[0].onclick = function() {
@@ -107,6 +139,14 @@ span[6].onclick = function() {
     modal[6].style.display = "none";
 }
 
+span[7].onclick = function() {
+    modal[7].style.display = "none";
+}
+
+span[8].onclick = function() {
+    modal[8].style.display = "none";
+}
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -131,83 +171,11 @@ window.onclick = function(event) {
     if (event.target == myModal7) {
         myModal7.style.display = "none";
     }
-}
-
-
-/*--------------------------------------*/
-
-const carouselContainer = document.querySelector('.child-3');
-const listImageArea = carouselContainer.querySelector('.next-list');
-const listOfImages = listImageArea.querySelectorAll('img');
-const currentImage = carouselContainer.querySelector('.current-image');
-const arrowLeft = carouselContainer.querySelector('.arrow-left');
-const arrowRight = carouselContainer.querySelector('.arrow-right');
-
-function styleList() {
-    if (listImageArea.scrollWidth == listImageArea.offsetWidth){
-        listImageArea.style.justifyContent = 'center'
-    } else {
-        listImageArea.style.justifyContent = 'flex-start'
+    if (event.target == myModal8) {
+        myModal8.style.display = "none";
     }
-
-};
-
-function goToRight() {
-    var current = listImageArea.querySelector('.current-image-list');
-    current.parentElement.nextElementSibling.children[0].classList.add('current-image-list');
-    current.classList.remove('current-image-list');
-    current = listImageArea.querySelector('.current-image-list');
-    listImageArea.scrollLeft = current.offsetLeft;
-    currentImage.attributes.src.value = current.attributes.src.value;
-    currentImage.classList.add('slideInFromRight');
-    setTimeout(function () {
-        currentImage.classList.remove('slideInFromRight');
-    }, 500);
-};
-
-function goToLeft() {
-    var current = listImageArea.querySelector('.current-image-list');
-    current.parentElement.previousElementSibling.children[0].classList.add('current-image-list');
-    current.classList.remove('current-image-list');
-    current = listImageArea.querySelector('.current-image-list');
-    listImageArea.scrollLeft = current.offsetLeft;
-    currentImage.attributes.src.value = current.attributes.src.value;
-    currentImage.classList.add('slideInFromLeft');
-    setTimeout(function () {
-        currentImage.classList.remove('slideInFromLeft');
-    }, 500);
-};
-
-function changeCurrentImage (newImage) {
-    currentImage.classList.add('fadeIn');
-    setTimeout(function () {
-        currentImage.classList.remove('fadeIn');
-    }, 500);
-    currentImage.attributes.src.value = this.attributes.src.value;
-    //listOfImages.forEach(image => image.classList.remove('current-image-list'));
-    listOfImages.forEach(function (image) {
-        image.classList.remove('current-image-list');
-    })
-    this.classList.add('current-image-list');
+    if (event.target == myModal9) {
+        myModal9.style.display = "none";
+    }
 }
-
-styleList();
-
-arrowLeft.addEventListener('click', goToLeft);
-arrowRight.addEventListener('click', goToRight);
-
-window.addEventListener('resize', function (e) {
-    styleList();
-});
-
-(function () {
-    if ( typeof NodeList.prototype.forEach === "function" ) return false;
-    NodeList.prototype.forEach = Array.prototype.forEach;
-})();
-
-//listOfImages.forEach(image => image.addEventListener('click', changeCurrentImage));
-listOfImages.forEach(function(image) {
-    image.addEventListener('click', changeCurrentImage);
-});
-
 
