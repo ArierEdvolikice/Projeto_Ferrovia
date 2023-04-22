@@ -156,7 +156,7 @@ html::-webkit-scrollbar {
 
 .esp-modal {
   position: absolute;
-  top: -1000px;
+  top: -5000px;
 }
 
 .dot {
@@ -182,6 +182,7 @@ html::-webkit-scrollbar {
   z-index: 1;
   cursor: pointer;
 }
+
 .dot3 {
   background-color: #fff;
   position: absolute;
@@ -190,6 +191,18 @@ html::-webkit-scrollbar {
   border-radius: 20px;
   top: 19.6%;
   left: 125.5%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dot4 {
+  background-color: #fff;
+  position: absolute;
+  min-height: 20px;
+  min-width: 20px;
+  border-radius: 20px;
+  top: 20%;
+  left: 92%;
   z-index: 1;
   cursor: pointer;
 }
@@ -260,6 +273,19 @@ html::-webkit-scrollbar {
   border-radius: 20px;
   top: 18.8%;
   left: 124.5%;
+  opacity: 0;
+  border: 5px solid #fff;
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.pulse4 {
+  position: absolute;
+  min-height: 30px;
+  min-width: 30px;
+  border-radius: 20px;
+  top: 19.2%;
+  left: 91%;
   opacity: 0;
   border: 5px solid #fff;
   -webkit-animation: pulsate 1s ease-out;
@@ -899,6 +925,66 @@ swiper-slide {
   opacity: 1;
 }
 
+.mySwiper21 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper22 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper23 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper24 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper25 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper26 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper27 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper28 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper29 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper30 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
 
 .mySwiper1 .swiper-slide-thumb-active {
   filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
@@ -978,6 +1064,46 @@ swiper-slide {
 }
 
 .mySwiper20 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper21 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper22 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper23 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper24 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper25 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper26 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper27 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper28 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper29 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper30 .swiper-slide-thumb-active {
   filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
 }
 
