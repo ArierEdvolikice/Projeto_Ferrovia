@@ -105,6 +105,59 @@ function myFunctionSobral() {
     document.getElementById("myModal30").style.display = "none";
 }
 
+function myFunctionIpu() {
+
+    document.getElementById("myModal22").style.display = "none";
+    document.getElementById("myModal23").style.display = "none";
+
+}
+
+function myFunctionCarire() {
+
+    document.getElementById("myModal25").style.display = "none";
+
+}
+
+function myFunctionReri() {
+
+    document.getElementById("myModal27").style.display = "none";
+    document.getElementById("myModal28").style.display = "none";
+
+}
+
+function myFunctionPires() {
+
+    document.getElementById("myModal30").style.display = "none";
+
+}
+
+function myFunctionTamb() {
+
+    document.getElementById("myModal36").style.display = "none";
+
+}
+
+function myFunctionCrat() {
+
+    document.getElementById("myModal38").style.display = "none";
+    document.getElementById("myModal39").style.display = "none";
+    document.getElementById("myModal40").style.display = "none";
+    document.getElementById("myModal41").style.display = "none";
+
+}
+
+function myFunctionIpu2() {
+
+    document.getElementById("myModal32").style.display = "none";
+
+}
+
+function myFunctionNovas() {
+
+    document.getElementById("myModal34").style.display = "none";
+
+}
+
 function myFunctionFortaleza() {
     document.getElementById("myModal2").style.display = "none";
     document.getElementById("myModal3").style.display = "none";
@@ -167,6 +220,26 @@ function myFunction() {
     document.getElementById("myModal28").style.display = "none";
     document.getElementById("myModal29").style.display = "none";
     document.getElementById("myModal30").style.display = "none";
+    document.getElementById("myModal31").style.display = "none";
+    document.getElementById("myModal32").style.display = "none";
+    document.getElementById("myModal33").style.display = "none";
+    document.getElementById("myModal34").style.display = "none";
+    document.getElementById("myModal35").style.display = "none";
+    document.getElementById("myModal36").style.display = "none";
+    document.getElementById("myModal37").style.display = "none";
+    document.getElementById("myModal38").style.display = "none";
+    document.getElementById("myModal39").style.display = "none";
+    document.getElementById("myModal40").style.display = "none";
+    document.getElementById("myModal41").style.display = "none";
+    document.getElementById("myModal42").style.display = "none";
+    document.getElementById("myModal43").style.display = "none";
+    document.getElementById("myModal44").style.display = "none";
+    document.getElementById("myModal45").style.display = "none";
+    document.getElementById("myModal46").style.display = "none";
+    document.getElementById("myModal47").style.display = "none";
+    document.getElementById("myModal48").style.display = "none";
+    document.getElementById("myModal49").style.display = "none";
+    document.getElementById("myModal50").style.display = "none";
 }
 
 // Adicionar ou remover eventos de escuta relevantes aqui
