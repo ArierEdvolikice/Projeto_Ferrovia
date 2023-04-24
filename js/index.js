@@ -26,83 +26,39 @@
 })()
 
 
+
+window.onload = () => window.scrollTo(640, 10)
+
+
 /*--------------------------------------*/
 
 
 function myFunctionCaucaia() {
-    document.getElementById("myModal").style.display = "none";
-    document.getElementById("myModal2").style.display = "none";
-    document.getElementById("myModal3").style.display = "none";
-    document.getElementById("myModal4").style.display = "none";
-    document.getElementById("myModal5").style.display = "none";
-    document.getElementById("myModal6").style.display = "none";
-    document.getElementById("myModal7").style.display = "none";
-    document.getElementById("myModal8").style.display = "none";
-    document.getElementById("myModal9").style.display = "none";
+
     document.getElementById("myModal11").style.display = "none";
     document.getElementById("myModal12").style.display = "none";
     document.getElementById("myModal13").style.display = "none";
     document.getElementById("myModal14").style.display = "none";
     document.getElementById("myModal15").style.display = "none";
-    document.getElementById("myModal16").style.display = "none";
-    document.getElementById("myModal17").style.display = "none";
-    document.getElementById("myModal18").style.display = "none";
-    document.getElementById("myModal19").style.display = "none";
-    document.getElementById("myModal20").style.display = "none";
+
 }
 
 function myFunctionSaoG() {
-    document.getElementById("myModal").style.display = "none";
-    document.getElementById("myModal2").style.display = "none";
-    document.getElementById("myModal3").style.display = "none";
-    document.getElementById("myModal4").style.display = "none";
-    document.getElementById("myModal5").style.display = "none";
-    document.getElementById("myModal6").style.display = "none";
-    document.getElementById("myModal7").style.display = "none";
-    document.getElementById("myModal8").style.display = "none";
-    document.getElementById("myModal9").style.display = "none";
-    document.getElementById("myModal10").style.display = "none";
-    document.getElementById("myModal11").style.display = "none";
-    document.getElementById("myModal12").style.display = "none";
-    document.getElementById("myModal13").style.display = "none";
-    document.getElementById("myModal14").style.display = "none";
     document.getElementById("myModal16").style.display = "none";
     document.getElementById("myModal17").style.display = "none";
-    document.getElementById("myModal18").style.display = "none";
-    document.getElementById("myModal19").style.display = "none";
-    document.getElementById("myModal20").style.display = "none";
+}
+
+function myFunctionPacatuba() {
+    document.getElementById("myModal61").style.display = "none";
+    document.getElementById("myModal62").style.display = "none";
 }
 
 function myFunctionSobral() {
-    document.getElementById("myModal").style.display = "none";
-    document.getElementById("myModal2").style.display = "none";
-    document.getElementById("myModal3").style.display = "none";
-    document.getElementById("myModal4").style.display = "none";
-    document.getElementById("myModal5").style.display = "none";
-    document.getElementById("myModal6").style.display = "none";
-    document.getElementById("myModal7").style.display = "none";
-    document.getElementById("myModal8").style.display = "none";
-    document.getElementById("myModal9").style.display = "none";
-    document.getElementById("myModal10").style.display = "none";
-    document.getElementById("myModal11").style.display = "none";
-    document.getElementById("myModal12").style.display = "none";
-    document.getElementById("myModal13").style.display = "none";
-    document.getElementById("myModal14").style.display = "none";
-    document.getElementById("myModal15").style.display = "none";
-    document.getElementById("myModal16").style.display = "none";
-    document.getElementById("myModal17").style.display = "none";
+
     document.getElementById("myModal19").style.display = "none";
     document.getElementById("myModal20").style.display = "none";
-    document.getElementById("myModal21").style.display = "none";
-    document.getElementById("myModal22").style.display = "none";
-    document.getElementById("myModal23").style.display = "none";
-    document.getElementById("myModal24").style.display = "none";
-    document.getElementById("myModal25").style.display = "none";
-    document.getElementById("myModal26").style.display = "none";
-    document.getElementById("myModal27").style.display = "none";
-    document.getElementById("myModal28").style.display = "none";
-    document.getElementById("myModal29").style.display = "none";
-    document.getElementById("myModal30").style.display = "none";
+    document.getElementById("myModal55").style.display = "none";
+    document.getElementById("myModal56").style.display = "none";
 }
 
 function myFunctionIpu() {
@@ -137,18 +93,39 @@ function myFunctionTamb() {
 
 }
 
+function myFunctionUmirim() {
+
+    document.getElementById("myModal48").style.display = "none";
+
+}
+
+function myFunctionTururu() {
+
+    document.getElementById("myModal50").style.display = "none";
+
+}
+
+function myFunctionMara() {
+
+    document.getElementById("myModal43").style.display = "none";
+    document.getElementById("myModal44").style.display = "none";
+
+}
+
 function myFunctionCrat() {
 
     document.getElementById("myModal38").style.display = "none";
     document.getElementById("myModal39").style.display = "none";
     document.getElementById("myModal40").style.display = "none";
     document.getElementById("myModal41").style.display = "none";
+    document.getElementById("myModal58").style.display = "none";
 
 }
 
 function myFunctionIpu2() {
 
     document.getElementById("myModal32").style.display = "none";
+    document.getElementById("myModal57").style.display = "none";
 
 }
 
@@ -157,6 +134,62 @@ function myFunctionNovas() {
     document.getElementById("myModal34").style.display = "none";
 
 }
+
+function myFunctionCuru() {
+
+    document.getElementById("myModal46").style.display = "none";
+
+}
+
+function myFunctionGuaiuba() {
+
+    document.getElementById("myModal64").style.display = "none";
+    document.getElementById("myModal65").style.display = "none";
+    document.getElementById("myModal66").style.display = "none";
+
+}
+
+function myFunctionAcarape() {
+
+    document.getElementById("myModal68").style.display = "none";
+
+}
+
+function myFunctionRedencao() {
+
+    document.getElementById("myModal70").style.display = "none";
+    document.getElementById("myModal71").style.display = "none";
+    document.getElementById("myModal73").style.display = "none";
+    document.getElementById("myModal75").style.display = "none";
+    document.getElementById("myModal76").style.display = "none";
+    document.getElementById("myModal78").style.display = "none";
+    document.getElementById("myModal80").style.display = "none";
+    document.getElementById("myModal81").style.display = "none";
+    document.getElementById("myModal83").style.display = "none";
+    document.getElementById("myModal84").style.display = "none";
+    document.getElementById("myModal85").style.display = "none";
+    document.getElementById("myModal86").style.display = "none";
+    document.getElementById("myModal87").style.display = "none";
+    document.getElementById("myModal88").style.display = "none";
+    document.getElementById("myModal90").style.display = "none";
+    document.getElementById("myModal91").style.display = "none";
+    document.getElementById("myModal92").style.display = "none";
+    document.getElementById("myModal93").style.display = "none";
+    document.getElementById("myModal94").style.display = "none";
+    document.getElementById("myModal96").style.display = "none";
+    document.getElementById("myModal97").style.display = "none";
+    document.getElementById("myModal98").style.display = "none";
+
+}
+
+function myFunctionItapipoca() {
+
+    document.getElementById("myModal54").style.display = "none";
+    document.getElementById("myModal52").style.display = "none";
+    document.getElementById("myModal53").style.display = "none";
+
+}
+
 
 function myFunctionFortaleza() {
     document.getElementById("myModal2").style.display = "none";
@@ -167,17 +200,7 @@ function myFunctionFortaleza() {
     document.getElementById("myModal7").style.display = "none";
     document.getElementById("myModal8").style.display = "none";
     document.getElementById("myModal9").style.display = "none";
-    document.getElementById("myModal10").style.display = "none";
-    document.getElementById("myModal11").style.display = "none";
-    document.getElementById("myModal12").style.display = "none";
-    document.getElementById("myModal13").style.display = "none";
-    document.getElementById("myModal14").style.display = "none";
-    document.getElementById("myModal15").style.display = "none";
-    document.getElementById("myModal16").style.display = "none";
-    document.getElementById("myModal17").style.display = "none";
-    document.getElementById("myModal18").style.display = "none";
-    document.getElementById("myModal19").style.display = "none";
-    document.getElementById("myModal20").style.display = "none";
+    document.getElementById("myModal59").style.display = "none";
 }
 
 let timer;
@@ -240,6 +263,56 @@ function myFunction() {
     document.getElementById("myModal48").style.display = "none";
     document.getElementById("myModal49").style.display = "none";
     document.getElementById("myModal50").style.display = "none";
+    document.getElementById("myModal51").style.display = "none";
+    document.getElementById("myModal52").style.display = "none";
+    document.getElementById("myModal53").style.display = "none";
+    document.getElementById("myModal54").style.display = "none";
+    document.getElementById("myModal55").style.display = "none";
+    document.getElementById("myModal56").style.display = "none";
+    document.getElementById("myModal57").style.display = "none";
+    document.getElementById("myModal58").style.display = "none";
+    document.getElementById("myModal59").style.display = "none";
+    document.getElementById("myModal60").style.display = "none";
+    document.getElementById("myModal61").style.display = "none";
+    document.getElementById("myModal62").style.display = "none";
+    document.getElementById("myModal63").style.display = "none";
+    document.getElementById("myModal64").style.display = "none";
+    document.getElementById("myModal65").style.display = "none";
+    document.getElementById("myModal66").style.display = "none";
+    document.getElementById("myModal67").style.display = "none";
+    document.getElementById("myModal68").style.display = "none";
+    document.getElementById("myModal69").style.display = "none";
+    document.getElementById("myModal70").style.display = "none";
+    document.getElementById("myModal71").style.display = "none";
+    document.getElementById("myModal72").style.display = "none";
+    document.getElementById("myModal73").style.display = "none";
+    document.getElementById("myModal74").style.display = "none";
+    document.getElementById("myModal75").style.display = "none";
+    document.getElementById("myModal76").style.display = "none";
+    document.getElementById("myModal77").style.display = "none";
+    document.getElementById("myModal78").style.display = "none";
+    document.getElementById("myModal79").style.display = "none";
+    document.getElementById("myModal80").style.display = "none";
+    document.getElementById("myModal81").style.display = "none";
+    document.getElementById("myModal82").style.display = "none";
+    document.getElementById("myModal83").style.display = "none";
+    document.getElementById("myModal84").style.display = "none";
+    document.getElementById("myModal85").style.display = "none";
+    document.getElementById("myModal86").style.display = "none";
+    document.getElementById("myModal87").style.display = "none";
+    document.getElementById("myModal88").style.display = "none";
+    document.getElementById("myModal89").style.display = "none";
+    document.getElementById("myModal90").style.display = "none";
+    document.getElementById("myModal91").style.display = "none";
+    document.getElementById("myModal92").style.display = "none";
+    document.getElementById("myModal93").style.display = "none";
+    document.getElementById("myModal94").style.display = "none";
+    document.getElementById("myModal95").style.display = "none";
+    document.getElementById("myModal96").style.display = "none";
+    document.getElementById("myModal97").style.display = "none";
+    document.getElementById("myModal98").style.display = "none";
+    document.getElementById("myModal99").style.display = "none";
+    document.getElementById("myModal100").style.display = "none";
 }
 
 // Adicionar ou remover eventos de escuta relevantes aqui
@@ -252,7 +325,7 @@ document.addEventListener("scroll", resetTimer);
 
 
 
-window.onload = () => window.scrollTo(450, 10);
+;
 
 /*--------------------------------------*/
 
@@ -488,6 +561,159 @@ btn[54].onclick = function () {
 
 btn[55].onclick = function () {
     modal[55].style.display = "block";
+}
+
+btn[56].onclick = function () {
+    modal[56].style.display = "block";
+}
+
+btn[57].onclick = function () {
+    modal[57].style.display = "block";
+}
+
+btn[58].onclick = function () {
+    modal[58].style.display = "block";
+}
+btn[59].onclick = function () {
+    modal[59].style.display = "block";
+}
+btn[60].onclick = function () {
+    modal[60].style.display = "block";
+}
+btn[61].onclick = function () {
+    modal[61].style.display = "block";
+}
+btn[62].onclick = function () {
+    modal[62].style.display = "block";
+}
+btn[63].onclick = function () {
+    modal[63].style.display = "block";
+}
+btn[64].onclick = function () {
+    modal[64].style.display = "block";
+}
+btn[65].onclick = function () {
+    modal[65].style.display = "block";
+}
+btn[66].onclick = function () {
+    modal[66].style.display = "block";
+}
+btn[67].onclick = function () {
+    modal[67].style.display = "block";
+}
+btn[68].onclick = function () {
+    modal[68].style.display = "block";
+}
+btn[69].onclick = function () {
+    modal[69].style.display = "block";
+}
+btn[70].onclick = function () {
+    modal[70].style.display = "block";
+}
+btn[71].onclick = function () {
+    modal[71].style.display = "block";
+}
+btn[72].onclick = function () {
+    modal[72].style.display = "block";
+}
+btn[73].onclick = function () {
+    modal[73].style.display = "block";
+}
+btn[74].onclick = function () {
+    modal[74].style.display = "block";
+}
+btn[75].onclick = function () {
+    modal[75].style.display = "block";
+}
+btn[76].onclick = function () {
+    modal[76].style.display = "block";
+}
+btn[77].onclick = function () {
+    modal[77].style.display = "block";
+}
+btn[78].onclick = function () {
+    modal[78].style.display = "block";
+}
+btn[79].onclick = function () {
+    modal[79].style.display = "block";
+}
+btn[80].onclick = function () {
+    modal[80].style.display = "block";
+}
+btn[81].onclick = function () {
+    modal[81].style.display = "block";
+}
+btn[82].onclick = function () {
+    modal[82].style.display = "block";
+}
+btn[83].onclick = function () {
+    modal[83].style.display = "block";
+}
+btn[84].onclick = function () {
+    modal[84].style.display = "block";
+}
+btn[85].onclick = function () {
+    modal[85].style.display = "block";
+}
+btn[86].onclick = function () {
+    modal[86].style.display = "block";
+}
+btn[87].onclick = function () {
+    modal[87].style.display = "block";
+}
+btn[88].onclick = function () {
+    modal[88].style.display = "block";
+}
+btn[89].onclick = function () {
+    modal[89].style.display = "block";
+}
+btn[90].onclick = function () {
+    modal[90].style.display = "block";
+}
+btn[91].onclick = function () {
+    modal[91].style.display = "block";
+}
+btn[92].onclick = function () {
+    modal[92].style.display = "block";
+}
+btn[93].onclick = function () {
+    modal[93].style.display = "block";
+}
+btn[94].onclick = function () {
+    modal[94].style.display = "block";
+}
+btn[95].onclick = function () {
+    modal[95].style.display = "block";
+}
+btn[96].onclick = function () {
+    modal[96].style.display = "block";
+}
+btn[97].onclick = function () {
+    modal[97].style.display = "block";
+}
+btn[98].onclick = function () {
+    modal[98].style.display = "block";
+}
+btn[99].onclick = function () {
+    modal[99].style.display = "block";
+}
+btn[100].onclick = function () {
+    modal[100].style.display = "block";
+}
+btn[101].onclick = function () {
+    modal[101].style.display = "block";
+}
+btn[102].onclick = function () {
+    modal[102].style.display = "block";
+}
+btn[103].onclick = function () {
+    modal[103].style.display = "block";
+}
+btn[104].onclick = function () {
+    modal[104].style.display = "block";
+}
+btn[105].onclick = function () {
+    modal[105].style.display = "block";
 }
 
 

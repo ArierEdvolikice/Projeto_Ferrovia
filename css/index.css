@@ -139,8 +139,8 @@ button:hover{
 }
 
 .parent img {
-  width: 2400px;
-  height: 1200px;
+  width: 2200px;
+  height: 1600px;
   background-image: url(../img/Mapa/Mapa_Indicativo.jpg);
   background-size: 100% 100%;
 }
@@ -156,7 +156,7 @@ html::-webkit-scrollbar {
 
 .esp-modal {
   position: absolute;
-  top: -5000px;
+  top: -10000px;
 }
 
 .dot {
@@ -227,7 +227,7 @@ html::-webkit-scrollbar {
 }
 
 .grid-container button{
-  width: 280px;
+  width: 230px;
 }
 
 .grid-container>div {
@@ -305,8 +305,8 @@ html::-webkit-scrollbar {
 }
 
 .botao_voltar button{
-  width: 150px;
-  margin-top: 5%;
+  padding: 10px 20px 10px 20px;
+  margin-top: 3%;
 }
 
 .modal {
@@ -344,9 +344,10 @@ html::-webkit-scrollbar {
   justify-content: center;
   width: 100%;
   color: #E0B358;
-  font-family:'Abel-Regular';
+  font-family: 'Abel-Regular';
   font-weight: 100;
   text-transform: uppercase;
+  margin-bottom: 3%;
 }
 
 .modal-content h2{
@@ -536,8 +537,9 @@ html::-webkit-scrollbar {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 5%;
-
+  padding: 5% 0% 0% 0%;
+  width: 350px;
+  height: 120px;
 }
 
 .child-2 {
@@ -555,8 +557,9 @@ html::-webkit-scrollbar {
   color: #fff;
   font-weight: 100;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
   padding-top: 15px;
+  letter-spacing: 1px;
 }
 
 .child-2 h3{
@@ -567,9 +570,9 @@ html::-webkit-scrollbar {
   font-size: 20px;
   align-items: center;
   text-align: center;
-  margin: -5% 17% 5% 17%;
+  margin: -5% 17% 8% 17%;
   color: #fff;
-  padding: 2px;
+  padding: 3px;
 }
 
 .child-2, h1, h2, h3 {
@@ -589,7 +592,7 @@ html::-webkit-scrollbar {
 }
 
 .botao-gal-v-e-tela-inicial button{
-  padding: 15px;
+  padding: 10px 20px 10px 20px;
 }
 
 .botao-especial{
@@ -621,6 +624,7 @@ html::-webkit-scrollbar {
   font-weight: 100;
   padding: 5px;
   font-size: 30px;
+  margin: 0;
 
 }
 
@@ -700,182 +704,461 @@ swiper-slide {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper2 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper3 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper4 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper5 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper6 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper7 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper8 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper9 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper10 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper11 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper12 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper13 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper14 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper15 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper16 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper17 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper18 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper19 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper20 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper21 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper22 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper23 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper24 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper25 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper26 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper27 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper28 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper29 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
 .mySwiper30 {
   height: 25%;
   box-sizing: border-box;
   padding: 10px 0;
+  margin-top: 15px;
 }
 
+.mySwiper31 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.mySwiper32 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.mySwiper33 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.mySwiper34 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.mySwiper35 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.mySwiper36 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.mySwiper37 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.mySwiper38 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.mySwiper39 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.mySwiper40 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper41 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper42 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper43 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper44 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper45 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper46 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper47 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper48 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper49 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper50 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper51 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper52 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper53 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper54 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper55 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper56 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper57 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper58 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper59 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper60 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper61 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper62 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper63 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper64 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper65 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper66 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper67 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper68 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper69 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.mySwiper70 {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 15px;
+}
 
 .mySwiper1 swiper-slide {
   width: 25%;
@@ -1057,6 +1340,216 @@ swiper-slide {
   opacity: 1;
 }
 
+.mySwiper31 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper32 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper33 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper34 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper35 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper36 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper37 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper38 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper39 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mySwiper40 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper41 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper42 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper43 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper44 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper45 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper46 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper47 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper48 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper49 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper50 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper51 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper52 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper53 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper54 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper55 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper56 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper57 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper58 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper59 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper60 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper61 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper62 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper63 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper64 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper65 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper66 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper67 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper68 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper69 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+.mySwiper70 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+}
+
 
 .mySwiper1 .swiper-slide-thumb-active {
   filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
@@ -1179,6 +1672,136 @@ swiper-slide {
   filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
 }
 
+.mySwiper31 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper32 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper33 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper34 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper35 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper36 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper37 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper38 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper39 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
+.mySwiper40 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper41 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper42 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper43 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper44 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper45 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper46 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper47 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper48 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper49 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper50 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper51 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper52 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper53 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper54 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper55 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper56 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper57 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper58 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper59 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper60 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper61 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper62 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper63 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper64 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper65 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper66 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper67 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper68 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper69 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+.mySwiper70 .swiper-slide-thumb-active {
+  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+}
+
 swiper-slide img {
   width: 100%;
   height: 100%;
@@ -1227,8 +1850,8 @@ swiper-slide img {
 }
 
 .circle-inner {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   animation: blink-inner 4s infinite ease-in-out;
   animation-delay: 2s;
   border-width: 2px;
