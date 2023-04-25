@@ -188,6 +188,13 @@ function myFunctionRedencao() {
     document.getElementById("myModal109").style.display = "none";
     document.getElementById("myModal110").style.display = "none";
     document.getElementById("myModal111").style.display = "none";
+    document.getElementById("myModal113").style.display = "none";
+    document.getElementById("myModal114").style.display = "none";
+    document.getElementById("myModal116").style.display = "none";
+    document.getElementById("myModal118").style.display = "none";
+    document.getElementById("myModal120").style.display = "none";
+    document.getElementById("myModal121").style.display = "none";
+    document.getElementById("myModal122").style.display = "none";
 }
 
 function myFunctionItapipoca() {
