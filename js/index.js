@@ -195,6 +195,14 @@ function myFunctionRedencao() {
     document.getElementById("myModal120").style.display = "none";
     document.getElementById("myModal121").style.display = "none";
     document.getElementById("myModal122").style.display = "none";
+    document.getElementById("myModal124").style.display = "none";
+    document.getElementById("myModal125").style.display = "none";
+    document.getElementById("myModal126").style.display = "none";
+    document.getElementById("myModal127").style.display = "none";
+    document.getElementById("myModal129").style.display = "none";
+    document.getElementById("myModal131").style.display = "none";
+    document.getElementById("myModal132").style.display = "none";
+    document.getElementById("myModal134").style.display = "none";
 }
 
 function myFunctionItapipoca() {
@@ -358,6 +366,16 @@ function myFunction() {
     document.getElementById("myModal128").style.display = "none";
     document.getElementById("myModal129").style.display = "none";
     document.getElementById("myModal130").style.display = "none";
+    document.getElementById("myModal131").style.display = "none";
+    document.getElementById("myModal132").style.display = "none";
+    document.getElementById("myModal133").style.display = "none";
+    document.getElementById("myModal134").style.display = "none";
+    document.getElementById("myModal135").style.display = "none";
+    document.getElementById("myModal136").style.display = "none";
+    document.getElementById("myModal137").style.display = "none";
+    document.getElementById("myModal138").style.display = "none";
+    document.getElementById("myModal139").style.display = "none";
+    document.getElementById("myModal140").style.display = "none";
 }
 
 // Adicionar ou remover eventos de escuta relevantes aqui
