@@ -52,13 +52,12 @@ body {
 
 .float {
   position: fixed;
-  top: 86%;
-  right: -240px;
-  width: 350px;
+  top: 90%;
+  right: -160px;
+  width: 250px;
   height: 850px;
   color: transparent;
   text-align: center;
-  /* line-height: 50px; */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   z-index: 1;
@@ -541,11 +540,6 @@ html::-webkit-scrollbar {
   padding: 5% 0% 0% 0%;
   width: 350px;
   height: 120px;
-}
-
-.child-2 {
-
-  width: 350px;
 }
 
 .child-2 button{

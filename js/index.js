@@ -214,6 +214,7 @@ function myFunctionRedencao() {
     document.getElementById("myModal151").style.display = "none";
     document.getElementById("myModal153").style.display = "none";
     document.getElementById("myModal154").style.display = "none";
+    document.getElementById("myModal156").style.display = "none";
 }
 
 function myFunctionItapipoca() {
@@ -401,6 +402,8 @@ function myFunction() {
     document.getElementById("myModal152").style.display = "none";
     document.getElementById("myModal153").style.display = "none";
     document.getElementById("myModal154").style.display = "none";
+    document.getElementById("myModal155").style.display = "none";
+    document.getElementById("myModal156").style.display = "none";
 }
 
 // Adicionar ou remover eventos de escuta relevantes aqui
@@ -946,6 +949,12 @@ btn[152].onclick = function () {
 }
 btn[153].onclick = function () {
     modal[153].style.display = "block";
+}
+btn[154].onclick = function () {
+    modal[154].style.display = "block";
+}
+btn[155].onclick = function () {
+    modal[155].style.display = "block";
 }
 
 
