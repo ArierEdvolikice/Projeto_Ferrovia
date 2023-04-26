@@ -156,7 +156,7 @@ html::-webkit-scrollbar {
 
 .esp-modal {
   position: absolute;
-  top: -10000px;
+  top: -2000%;
 }
 
 .dot {
@@ -319,7 +319,7 @@ html::-webkit-scrollbar {
   height: 100%;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.4);
-  background-image: url(../img/Moldura/Moldura_Nova.png);
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;

@@ -203,6 +203,17 @@ function myFunctionRedencao() {
     document.getElementById("myModal131").style.display = "none";
     document.getElementById("myModal132").style.display = "none";
     document.getElementById("myModal134").style.display = "none";
+    document.getElementById("myModal136").style.display = "none";
+    document.getElementById("myModal137").style.display = "none";
+    document.getElementById("myModal139").style.display = "none";
+    document.getElementById("myModal141").style.display = "none";
+    document.getElementById("myModal143").style.display = "none";
+    document.getElementById("myModal145").style.display = "none";
+    document.getElementById("myModal147").style.display = "none";
+    document.getElementById("myModal149").style.display = "none";
+    document.getElementById("myModal151").style.display = "none";
+    document.getElementById("myModal153").style.display = "none";
+    document.getElementById("myModal154").style.display = "none";
 }
 
 function myFunctionItapipoca() {
@@ -376,6 +387,20 @@ function myFunction() {
     document.getElementById("myModal138").style.display = "none";
     document.getElementById("myModal139").style.display = "none";
     document.getElementById("myModal140").style.display = "none";
+    document.getElementById("myModal141").style.display = "none";
+    document.getElementById("myModal142").style.display = "none";
+    document.getElementById("myModal143").style.display = "none";
+    document.getElementById("myModal144").style.display = "none";
+    document.getElementById("myModal145").style.display = "none";
+    document.getElementById("myModal146").style.display = "none";
+    document.getElementById("myModal147").style.display = "none";
+    document.getElementById("myModal148").style.display = "none";
+    document.getElementById("myModal149").style.display = "none";
+    document.getElementById("myModal150").style.display = "none";
+    document.getElementById("myModal151").style.display = "none";
+    document.getElementById("myModal152").style.display = "none";
+    document.getElementById("myModal153").style.display = "none";
+    document.getElementById("myModal154").style.display = "none";
 }
 
 // Adicionar ou remover eventos de escuta relevantes aqui
@@ -867,6 +892,60 @@ btn[134].onclick = function () {
 }
 btn[135].onclick = function () {
     modal[135].style.display = "block";
+}
+btn[136].onclick = function () {
+    modal[136].style.display = "block";
+}
+btn[137].onclick = function () {
+    modal[137].style.display = "block";
+}
+btn[138].onclick = function () {
+    modal[138].style.display = "block";
+}
+btn[139].onclick = function () {
+    modal[139].style.display = "block";
+}
+btn[140].onclick = function () {
+    modal[140].style.display = "block";
+}
+btn[141].onclick = function () {
+    modal[141].style.display = "block";
+}
+btn[142].onclick = function () {
+    modal[142].style.display = "block";
+}
+btn[143].onclick = function () {
+    modal[143].style.display = "block";
+}
+btn[144].onclick = function () {
+    modal[144].style.display = "block";
+}
+btn[145].onclick = function () {
+    modal[145].style.display = "block";
+}
+btn[146].onclick = function () {
+    modal[146].style.display = "block";
+}
+btn[147].onclick = function () {
+    modal[147].style.display = "block";
+}
+btn[148].onclick = function () {
+    modal[148].style.display = "block";
+}
+btn[149].onclick = function () {
+    modal[149].style.display = "block";
+}
+btn[150].onclick = function () {
+    modal[150].style.display = "block";
+}
+btn[151].onclick = function () {
+    modal[151].style.display = "block";
+}
+btn[152].onclick = function () {
+    modal[152].style.display = "block";
+}
+btn[153].onclick = function () {
+    modal[153].style.display = "block";
 }
 
 
