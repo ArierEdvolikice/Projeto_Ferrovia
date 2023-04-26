@@ -74,18 +74,34 @@ body {
   z-index: 1;
   top: 6%;
   left: 2%;
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes pulse {
-  0% { -webkit-transform: scale(0.8); opacity: 0.5; }
-  50% { -webkit-transform: scale(0.7); opacity: 0.8; }
-  100% { -webkit-transform: scale(0.8); opacity: 0.5; }
+  0% { opacity: 0.5; }
+  50% {opacity: 0.8; }
+  60% {  opacity: 0.8; }
+  70% { opacity: 0.8; }
+  100% {  opacity: 0.5; }
 }
 
 @keyframes pulse {
-  0% { transform: scale(0.8); opacity: 0.5; }
-  50% { transform: scale(0.7); opacity: 0.8; }
-  100% { transform: scale(0.8); opacity: 0.5; }
+  0% {  opacity: 0.5; }
+  50% {  opacity: 0.8; }
+  60% {  opacity: 0.8; }
+  70% { opacity: 0.8; }
+  100% { ; opacity: 0.5; }
+}
+
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) } 
+   50% { transform: rotate(90.0deg) }
+     60% { transform: rotate(90.0deg) }
+     70% { transform: rotate(90.0deg) }/* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
 }
 
 .float2 img{
@@ -104,6 +120,7 @@ body {
   border: none;
   opacity: 0.3;
   margin-left: 5%;
+  padding: 6px 6px 3px 6px;
 }
 
 .float button:hover {
@@ -318,10 +335,24 @@ html::-webkit-scrollbar {
   height: 100%;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.4);
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+   opacity: 1;
+  animation:opac 0.8s;
+}
+
+@keyframes opac{
+  from{
+      opacity:0
+  }
+   to{
+      opacity:1
+  }
 }
 
 
@@ -336,6 +367,8 @@ html::-webkit-scrollbar {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 
 .modal-content h1{
   display: inline-block;
@@ -1986,374 +2019,374 @@ swiper-slide {
 
 
 .mySwiper1 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper2 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper3 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
   
 }
 
 .mySwiper4 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper5 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper6 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper7 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper8 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper9 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper10 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper11 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper12 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper13 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper14 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper15 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper16 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper17 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper18 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper19 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper20 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper21 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper22 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper23 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper24 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper25 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper26 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper27 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper28 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper29 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper30 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper31 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper32 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper33 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper34 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper35 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper36 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper37 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper38 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper39 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 .mySwiper40 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper41 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper42 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper43 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper44 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper45 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper46 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper47 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper48 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper49 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper50 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper51 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper52 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper53 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper54 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper55 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper56 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper57 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper58 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper59 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper60 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper61 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper62 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper63 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper64 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper65 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper66 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper67 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper68 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper69 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper70 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper71 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper72 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper73 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper74 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper75 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper76 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper77 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper78 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper79 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper80 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper81 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper82 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper83 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper84 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper85 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper86 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper87 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper88 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper89 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper90 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper91 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper92 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper93 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper94 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper95 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper96 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper97 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper98 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper99 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper100 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper101 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper102 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper103 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper104 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper105 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper106 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper107 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper108 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper109 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 .mySwiper110 .swiper-slide-thumb-active {
-  filter: opacity(0.4) drop-shadow(0 0 0 #E0B358);
+  filter: opacity(0.5) drop-shadow(0 0 0 #E0B358);
 }
 
 swiper-slide img {
@@ -2392,22 +2425,22 @@ swiper-slide img {
   animation: blink-outer 4s infinite ease-in-out;
   border-color: #fff;
   border-width: 2px;
+  animation-delay:5s;
 }
 
 .circle-middle {
   width: 20px;
   height: 20px;
-  animation: blink-middle 3s infinite ease-in-out;
-  animation-delay: 2s;
+  animation: blink-middle 4s infinite ease-in-out;
   border-color: #fff;
   border-width: 2px;
+  animation-delay:2s;
 }
 
 .circle-inner {
   width: 12px;
   height: 12px;
   animation: blink-inner 4s infinite ease-in-out;
-  animation-delay: 2s;
   border-width: 2px;
   border-color: #fff;
   background-color: #fff;
@@ -2415,13 +2448,13 @@ swiper-slide img {
 
 @keyframes blink-outer {
   0% {
-    opacity: 0;
+     opacity: 0;
   }
   50% {
-    opacity: 1;
+     opacity: 1;
   }
-  100% {
-    opacity: 0;
+  100% {;
+     opacity: 0;
   }
 }
 
@@ -2439,16 +2472,17 @@ swiper-slide img {
 
 @keyframes blink-inner {
   0% {
-    border-color: #fff;
-    background-color: rgb(255,255,255 , 1);
+    background-color:rgb(255,255,255,1);
+    border-color: rgb(255,255,255,0);
+    
   }
   50% {
-    border-color: #fff;
-    background-color: rgb(255,255,255 , 0);
+    background-color:rgb(255,255,255,0);
+    border-color: rgb(255,255,255,1);
+    
   }
   100% {
-    border-color: #fff;
-    background-color: rgb(255,255,255 , 1)
-  }
+    background-color:rgb(255,255,255,1);
+    border-color: rgb(255,255,255,0);
+    
 }
-
