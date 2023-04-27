@@ -92,7 +92,7 @@ body {
   50% {  opacity: 0.8; }
   60% {  opacity: 0.8; }
   70% { opacity: 0.8; }
-  100% { ; opacity: 0.5; }
+  100% { opacity: 0.5; }
 }
 
 
@@ -2451,7 +2451,7 @@ swiper-slide img {
   50% {
      opacity: 1;
   }
-  100% {;
+  100% {
      opacity: 0;
   }
 }
@@ -2481,6 +2481,5 @@ swiper-slide img {
   }
   100% {
     background-color:rgb(255,255,255,1);
-    border-color: rgb(255,255,255,0);
-    
-}
+    border-color: rgb(255,255,255,0);}
+  }
