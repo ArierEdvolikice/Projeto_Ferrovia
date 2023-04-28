@@ -397,11 +397,8 @@ function myFunction() {
     document.getElementById("myModal154").style.display = "none";
     document.getElementById("myModal155").style.display = "none";
     document.getElementById("myModal156").style.display = "none";
-}
 
-function moverElemento() {
-    window.scrollTo(640, 10);
-  }
+}
 
 
 
