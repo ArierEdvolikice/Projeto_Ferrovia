@@ -238,14 +238,7 @@ function myFunctionFortaleza() {
     document.getElementById("myModal59").style.display = "none";
 }
 
-let timer;
 
-function resetTimer() {
-    clearTimeout(timer);
-    timer = setTimeout(function () {
-        myFunction();
-    }, 180000);
-}
 
 function myFunction() {
     document.getElementById("myModal").style.display = "none";
@@ -406,17 +399,26 @@ function myFunction() {
     document.getElementById("myModal156").style.display = "none";
 }
 
+function moverElemento() {
+    window.scrollTo(640, 10);
+  }
+
+
+
+  let timer;
+
+function resetTimer() {
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+        myFunction();
+    }, 180000);
+}
+
 // Adicionar ou remover eventos de escuta relevantes aqui
 document.addEventListener("mousemove", resetTimer);
 document.addEventListener("keypress", resetTimer);
 document.addEventListener("scroll", resetTimer);
 
-
-
-
-
-
-;
 
 /*--------------------------------------*/
 
